@@ -1,3 +1,15 @@
+Frozen branch
+
+Install
+```
+git clone https://github.com/silveroxides/llama.cpp
+cd llama.cpp
+mkdir build
+cmake -B build
+cmake --build build --config Release -j10 --target llama-quantize
+cd build/bin
+sh ./llama-quantize --help
+```
 # llama.cpp
 
 ![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)
