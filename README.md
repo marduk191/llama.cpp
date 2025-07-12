@@ -2,7 +2,7 @@ Frozen branch
 
 Install
 ```
-git clone https://github.com/silveroxides/llama.cpp
+git clone https://github.com/marduk191/llama.cpp
 cd llama.cpp
 mkdir build
 cmake -B build
